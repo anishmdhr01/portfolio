@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(//db.onlinewebfonts.com/c/00370d92f1b404768d34ac7dc664289e?family=Sansation);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color:  white;
+}
+
+body{
+    background-image: url("/images/bg_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 1.2);
+}
+
+nav{
+    ul{
+        background: transparent;
+            li{
+                padding: 0rem 1rem;
+            a{
+                border-radius: 50%;
+                padding: 0rem 1.5rem;
+                div{
+                    margin: 1rem;
+                    text-align: center;
+                    i{
+                        padding: 0 0.6rem;
+                        font-size: 1.5rem;
+                        font-weight: bold;
+
+                    }
+                    .circle{
+                        border: 2px solid yellow;
+                        border-radius: 50%;
+                        padding: 10px;
+                        color: yellow;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.menuOff     
+{   
+    display: none;    
+}    
+    
+.menuOn    
+{    
+    display: block;    
+}
+
+header{
+    padding: 10px 0px;
+    margin-left: 50px;
+    button{
+        border-radius: 50px !important;
+        height: 40px;
+        width: 100px;
+    }
+    i{
+        margin: 5px 8px;
+        font-size: 1.25rem;
+        color: white;
+    }
+    .fa-instagram{
+        font-size: 1.75rem;
+    }
+    .fa-twitter{
+        padding: 5px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid white;
+        border-radius: 50%;
+        background-color: white;
+        color: black;
+    }
+    p{
+        font-size: 0.75rem;
+        margin-top: 0.5rem;
+        padding: 0rem 0.5rem;
+    }
+}
+
+
+.banner{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 180px;
+    h2,span{
+        font-family: 'Sansation';
+        font-weight: normal;
+    }
+    h5{
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 40px;
+    }
+    button{
+        margin: 26px 0px;
+    }
+    .sign{
+        margin: 26px 0px;
+        font-size: 40px;
+        float: right;
+        font-family: 'Sacramento', cursive;
+    }
+}
+
+.space{
+    margin-top: 1.25rem;
+    height: 350px;
+    background-color: rgba(236, 238, 240, 0.92);
+    border: 1px solid rgba(236, 238, 240, 0.92);
+    border-radius: 10px;
+    opacity: 0.2;
+}
+
+footer{
+    ul{
+        margin-bottom: 2.5rem;
+        margin-top: 4rem;
+        li{
+            display: inline;
+            padding: 0rem 2rem;
+            a{
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+            }
+        }
+        li:not(:last-child){
+            border-right: 2px solid white;
+        }
+    }
+}

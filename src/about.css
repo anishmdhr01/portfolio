@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(//db.onlinewebfonts.com/c/00370d92f1b404768d34ac7dc664289e?family=Sansation);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url("/images/bg_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: black;
+}
+
+nav ul {
+  background: transparent;
+}
+
+nav ul li {
+  padding: 0rem 1rem;
+}
+
+nav ul li a {
+  border-radius: 50%;
+  padding: 0rem 1.5rem;
+}
+
+nav ul li a div {
+  margin: 1rem;
+  text-align: center;
+}
+
+nav ul li a div i {
+  padding: 0 0.6rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul li a div .circle {
+  border: 2px solid yellow;
+  border-radius: 50%;
+  padding: 10px;
+  color: yellow;
+}
+
+.menuOff {
+  display: none;
+}
+
+.menuOn {
+  display: block;
+}
+
+header {
+  padding: 10px 0px;
+  margin-left: 50px;
+}
+
+header button {
+  border-radius: 50px !important;
+  height: 40px;
+  width: 100px;
+}
+
+header i {
+  margin: 5px 8px;
+  font-size: 1.25rem;
+  color: white;
+}
+
+header .fa-instagram {
+  font-size: 1.75rem;
+}
+
+header .fa-twitter {
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+}
+
+header p {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  padding: 0rem 0.5rem;
+}
+
+.banner {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 180px;
+}
+
+.banner .row {
+  margin-bottom: 60px;
+}
+
+.banner .row img {
+  border-radius: 50%;
+}
+
+.banner .row .info {
+  margin: 0px 50px;
+}
+
+.banner .row .info h2, .banner .row .info span {
+  font-family: 'Sansation';
+  font-weight: lighter;
+}
+
+.banner .row .info span {
+  margin-bottom: 2rem;
+}
+
+.banner .row .info span > i {
+  font-size: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 4px 7px;
+  background-color: white;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.banner .personal ul {
+  margin-top: 1.25rem;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.banner .personal ul li {
+  padding: 0px;
+  display: inline;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+.banner .personal ul li:not(:first-child) {
+  margin-left: 6rem;
+}
+
+.banner .space {
+  margin-top: 3rem;
+  height: 34rem;
+  padding: 1.5rem 1rem;
+  border: 1px solid rgba(236, 238, 240, 0.92);
+  border-radius: 10px;
+  background-color: rgba(236, 238, 240, 0.92);
+  opacity: 0.2;
+}
+
+.banner .space h3, .banner .space p {
+  z-index: 2 !important;
+  color: black;
+}
+
+footer ul {
+  margin-bottom: 2.5rem;
+  margin-top: 4rem;
+}
+
+footer ul li {
+  display: inline;
+  padding: 0rem 2rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+footer ul li:not(:last-child) {
+  border-right: 2px solid white;
+}
+/*# sourceMappingURL=about.css.map */
